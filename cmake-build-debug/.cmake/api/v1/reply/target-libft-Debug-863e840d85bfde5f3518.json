@@ -53,7 +53,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
+				2,
 				3,
 				4,
 				5
@@ -94,7 +94,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1,
+				2,
 				3,
 				4,
 				5
@@ -104,18 +104,12 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				2
+				1
 			]
 		}
 	],
 	"sources" : 
 	[
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "main.c",
-			"sourceGroupIndex" : 0
-		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
@@ -143,6 +137,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "ft_memmove.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "strlcpy.c",
 			"sourceGroupIndex" : 0
 		}
 	],

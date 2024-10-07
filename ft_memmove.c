@@ -22,10 +22,31 @@ void *ft_memmove(void *dest, void *source, size_t size) {
     return dest;
 }
 
+void test_memmove() {
+    char src1[] = "Hello, world!";
+    char dest1[20];
+    ft_memmove(dest1, src1, 13);
+    printf("Test 1 (Normal): '%s'\n", dest1); // Expected: "Hello, world!"
+
+    char src2[] = "Overlap Test";
+    ft_memmove(src2 + 3, src2, 5);
+    printf("Test 2 (Overlap): '%s'\n", src2); // Expected: "Oveverl Test"
+
+    char src3[] = "Memmove Forward";
+    ft_memmove(src3, src3 + 8, 7);
+    printf("Test 3 (Forward Overlap): '%s'\n", src3); // Expected: "Forward Forward"
+
+    char src4[] = "Complete overlap";
+    ft_memmove(src4, src4, 10);
+    printf("Test 4 (Complete overlap): '%s'\n", src4); // Expected: "Complete overlap"
+
+    char src5[] = "Zero test";
+    char dest5[20] = "Unchanged";
+    ft_memmove(dest5, src5, 0);
+    printf("Test 5 (Size 0): '%s'\n", dest5); // Expected: "Unchanged"
+}
+
 int main() {
-    char buffer[10] = "123456789"; // Une chaîne de 10 caractères
-    printf("%s\n", buffer);
-    ft_memmove(buffer + 2, buffer, 8); // On essaie de déplacer 8 caractères
-    printf("%s\n", buffer);
+    test_memmove();
     return 0;
 }

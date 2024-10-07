@@ -17,4 +17,6 @@ void *ft_memcpy(void *dest, void *source, size_t size);
 
 void *ft_memmove(void *source, void *dest, size_t size);
 
+char *ft_strlcpy(const char *source, char *dest, size_t size);
+
 #endif //LIBFT_H
