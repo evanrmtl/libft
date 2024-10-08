@@ -1,11 +1,11 @@
 //
 // Created by evanr on 05/10/2024.
 //
-#include <stdio.h>
-
 #include "libft.h"
 
 void *ft_memcpy(void *dest, void *source, size_t size) {
+    if(dest == NULL || source == NULL)
+        return NULL;
     unsigned char *pdest = dest;
     unsigned char *psource = source;
     if (psource + size > pdest) {

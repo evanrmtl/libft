@@ -9,4 +9,6 @@ add_executable(libft
         bzero.c
         memcpy.c
         ft_memmove.c
-        strlcpy.c)
+        strlcpy.c
+        strlcat.c
+)

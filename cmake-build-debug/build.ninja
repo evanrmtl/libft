@@ -79,6 +79,12 @@ build CMakeFiles/libft.dir/strlcpy.c.obj: C_COMPILER__libft_unscanned_Debug D$:/
   OBJECT_DIR = CMakeFiles\libft.dir
   OBJECT_FILE_DIR = CMakeFiles\libft.dir
 
+build CMakeFiles/libft.dir/strlcat.c.obj: C_COMPILER__libft_unscanned_Debug D$:/42/libft/strlcat.c || cmake_object_order_depends_target_libft
+  DEP_FILE = CMakeFiles\libft.dir\strlcat.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\libft.dir
+  OBJECT_FILE_DIR = CMakeFiles\libft.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target libft
@@ -87,7 +93,7 @@ build CMakeFiles/libft.dir/strlcpy.c.obj: C_COMPILER__libft_unscanned_Debug D$:/
 #############################################
 # Link the executable libft.exe
 
-build libft.exe: C_EXECUTABLE_LINKER__libft_Debug CMakeFiles/libft.dir/memset.c.obj CMakeFiles/libft.dir/bzero.c.obj CMakeFiles/libft.dir/memcpy.c.obj CMakeFiles/libft.dir/ft_memmove.c.obj CMakeFiles/libft.dir/strlcpy.c.obj
+build libft.exe: C_EXECUTABLE_LINKER__libft_Debug CMakeFiles/libft.dir/memset.c.obj CMakeFiles/libft.dir/bzero.c.obj CMakeFiles/libft.dir/memcpy.c.obj CMakeFiles/libft.dir/ft_memmove.c.obj CMakeFiles/libft.dir/strlcpy.c.obj CMakeFiles/libft.dir/strlcat.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\libft.dir
