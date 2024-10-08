@@ -1,2 +1,2 @@
 # libft
-project from the school "42" where I have to create my own standard library
+42’ school project where I have to create my own standard library
