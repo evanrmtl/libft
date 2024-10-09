@@ -4,11 +4,20 @@ project(libft C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(libft
-        memset.c
-        libft.h
-        bzero.c
-        memcpy.c
+        ft_memchr.c
+        ft_bzero.c
+        ft_memcmp.c
+        ft_memcpy.c
         ft_memmove.c
-        strlcpy.c
-        strlcat.c
+        ft_memset.c
+        ft_strdup.c
+        ft_strlcat.c
+        ft_strlcpy.c
+        ft_strlcpy.c
+        ft_strchr.c
+        ft_strlen.c
+        ft_strrchr.c
+        ft_strnstr.c
+        ft_strncmp.c
+        ft_atoi.c
 )

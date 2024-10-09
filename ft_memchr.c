@@ -1,7 +1,7 @@
 //
 // Created by erimonteil on 07/10/24.
 //
-#include "libft.h"
+#include "ft_libft.h"
 
 void * ft_memchr( const void * memoryBlock, int searchedChar, size_t size ) {
     const unsigned char *block = memoryBlock;
@@ -12,8 +12,4 @@ void * ft_memchr( const void * memoryBlock, int searchedChar, size_t size ) {
         size--;
     }
     return NULL;
-}
-
-int main(void){
-    return 1;
 }

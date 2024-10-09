@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 
-#include "libft.h"
+#include "ft_libft.h"
 
 size_t ft_strlcpy( char *dest, const char *source,  size_t size) {
     size_t i = 0;

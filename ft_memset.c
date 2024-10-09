@@ -1,11 +1,7 @@
 //
 // Created by evanr on 05/10/2024.
 //
-
-#include <stdio.h>
-
-#include "libft.h"
-#include <stdlib.h>
+#include "ft_libft.h"
 
 void *ft_memset(void *str, int c, size_t n) {
     unsigned char *p = str;

@@ -1,7 +1,7 @@
 //
 // Created by evanr on 08/10/2024.
 //
-#include "libft.h"
+#include "ft_libft.h"
 
 size_t ft_strlcat(char *dest, const char *source, size_t size) {
     if (dest == NULL || source == NULL)
