@@ -1,3 +1,0 @@
-/home/evan/Documents/libft/cmake-build-debug/CMakeFiles/libft.dir
-/home/evan/Documents/libft/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/evan/Documents/libft/cmake-build-debug/CMakeFiles/rebuild_cache.dir
