@@ -6,5 +6,5 @@
 #include "ft_libft.h"
 
 int ft_isprint( int character ) {
-    return character >= 33 && character <= 126;
+    return character >= 32 && character <= 126;
 }

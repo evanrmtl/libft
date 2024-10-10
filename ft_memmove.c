@@ -1,9 +1,12 @@
 //
 // Created by evanr on 05/10/2024.
 //
+#include <stdio.h>
+#include <string.h>
+
 #include "ft_libft.h"
 
-void *ft_memmove( void *source, void *dest, size_t size) {
+void *ft_memmove( void *dest, void *source, size_t size) {
     if (dest == NULL || source == NULL)
         return NULL;
     unsigned char *psource = source;

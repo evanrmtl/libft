@@ -3,6 +3,8 @@
 //
 #include "ft_libft.h"
 
-int ft_toupper(int character) {
-    return character + 32;
+int ft_tolower(int character) {
+    if(character >= 'A' && character <= 'Z')
+        return character + 32;
+    return character;
 }
